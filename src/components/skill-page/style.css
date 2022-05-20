@@ -1,0 +1,155 @@
+.wrapper{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.wrapper h1{
+    width: 100%;
+    text-align: center;
+    color: #2F327D;;
+}
+.wrapper h1 span{
+    color: #F48C06;
+}
+.wrapper .p-text {
+    width: 60%;
+    margin: 1.5rem auto;
+    color: #696984;
+    text-align: center;
+}
+.box-group{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box-1,.box-2{
+    width: 28%;
+    height: 220px;
+    margin: 1rem 1.4rem;
+    border-radius: 10px;
+    background-image: url("./img/1.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.5rem 0;
+    flex-wrap: wrap;
+}
+.box-1 h3 , .box-2 h3 {
+    width: 100%;
+    text-align: center;
+}
+.box-2{
+    background-image: url("./img/2.jpg");
+}
+button{
+    width: 160px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+button:hover{
+    background-color: #23BDEE;
+    border: none;
+}
+
+.box-3{
+    width: 32%;
+    margin: 4% 2%;
+    text-align: justify;
+    height: 280px;
+    padding-top: 2rem;
+}
+.box-3 h3{
+    color: #2F327D;
+    margin-bottom: 1.4rem;
+    position: relative;
+}
+.box-3 h3::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #F4B767;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    left: -15px;
+    z-index: -1;
+
+}
+.box-3 h3 span{
+    color: #F48C06;
+}
+.box-3 p{
+    color: #696984;
+}
+.box-3 a{
+    color: #696984;
+    display: block;
+    margin-top: 1rem;
+}
+.box-4{
+    width: 30%;
+    border-radius: 15px;
+    margin: 4% 2%;
+    text-align: justify;
+    height: 270px;
+    padding-top: 2rem;
+    background-image: url("./img/3.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-4::after{
+    content: "";
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+    background-color: #23BDEE;
+    border-radius: 10px;
+}
+.box-4::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    right: -10px;
+    bottom:  -10px;
+    z-index: -1;
+    background-color: #F3AC50;
+    border-radius: 10px;
+}
+.box-4 button{
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    color: #23BDEE;
+    font-size: 30px;
+    padding-top: 4px;
+    padding-left: 2px;
+    background-color: white;
+    border-radius: 50%;
+}

@@ -1,0 +1,108 @@
+.last-page{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.last-page h1{
+    color: #2F327D;
+    margin: 1rem 0;
+}
+.last-page p{
+    color: #696984;
+}
+.last-block{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.item-3{
+    width: 30%;
+    padding-right: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    text-align: justify;
+    margin: 0 2rem ;
+}
+.item-3 img{
+    width: 95%;
+}
+
+.item-3 .badge{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #252641;
+    font-size: 14px;
+    background-color: #F4C467;
+    margin: 1.4rem 0;
+}
+.item-3 h4{
+    color: #252641;
+    margin: 10px 0;
+}
+.item-3 p{
+    color: #696984;
+    margin: 10px 0;
+}
+.item-3 a{
+    color: #696984;
+    margin: 10px 0;
+}
+
+.item-4{
+    width: 50%;
+    height: auto;
+    display: flex;
+
+    flex-wrap: wrap;
+    margin: 0 1rem ;
+}
+.item-4 .box{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: start;
+}
+.item-4 .box img{
+    width: 200px;
+    height: 140px;
+}
+.badge-footer,.badge-footer-1{
+    width: auto;
+    padding: 0 20px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #252641;
+    font-size: 14px;
+    background-color: #F4C467;
+    margin: 1.4rem 0;
+    position: absolute;
+    bottom: 0;
+    left: 16%;
+}
+.badge-footer-1{
+    left: 7%;
+}
+.item-4 .box h4{
+    color: #252641;
+    text-align: justify;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.item-4 .box p{
+    width: 90%;
+    text-align: start;
+}
